@@ -25,21 +25,21 @@ The analysis reveals statistically significant differences in revenue between th
 - **SciPy** - Statistical hypothesis testing
 - **Jupyter Notebook** - Interactive development environment
 
-## Project Structure
+## Repository Structure
 
 ```
 statistical-analysis-project/
-├── README.md                          # Project documentation
-├── requirements.txt                   # Python dependencies
-├── data/                             # Dataset files
-│   ├── megaline_calls.csv           # Call records
-│   ├── megaline_internet.csv        # Internet usage data
-│   ├── megaline_messages.csv        # SMS records
-│   ├── megaline_plans.csv           # Plan details
-│   └── megaline_users.csv           # User information
-└── notebooks/
-    ├── statistical_analysis.ipynb   # Main analysis notebook
-    └── statistical_analysis.html    # HTML export for viewing
+│
+├── README.md
+├── requirements.txt
+├── index.html
+├── statistical_analysis.ipynb
+└── data/
+    ├── megaline_calls.csv
+    ├── megaline_internet.csv
+    ├── megaline_messages.csv
+    ├── megaline_plans.csv
+    └── megaline_users.csv
 ```
 
 ## Analysis Workflow
@@ -73,12 +73,12 @@ pip install -r requirements.txt
 
 3. Launch Jupyter Notebook:
 ```bash
-jupyter notebook notebooks/statistical_analysis.ipynb
+jupyter notebook statistical_analysis.ipynb
 ```
 
 Alternatively, view the pre-rendered HTML file in your browser:
 ```bash
-open notebooks/statistical_analysis.html
+open index.html
 ```
 
 ## Dataset Description
