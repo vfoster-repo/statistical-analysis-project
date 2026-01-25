@@ -4,7 +4,32 @@ A comprehensive statistical analysis project comparing two prepaid mobile plans 
 
 ## Project Overview
 
+**Business Context:** Determining which mobile plan generates more revenue to guide marketing investment decisions.
+
 This project analyzes customer behavior and revenue patterns from 500 Megaline clients during 2018. The analysis examines usage patterns (calls, messages, and internet data) across two prepaid plans to provide data-driven insights for the commercial department.
+
+## What This Demonstrates
+
+### Learning Challenge
+- Statistical hypothesis testing was a new concept
+- Understanding telecommunications metrics (calls, messages, data usage)
+- Learning probability distributions and significance testing
+
+### Problem-Solving Process
+1. **Domain Research**: Studied telecom business models to understand what metrics matter
+2. **Statistical Planning**: Used Copilot to understand which statistical tests are appropriate
+3. **Systematic Analysis**: Analyzed calls, messages, and internet usage across 5 datasets
+4. **Business Translation**: Converted statistical findings (p-values, confidence intervals) into "should we invest more in Plan A or Plan B?"
+
+### Professional Outcome
+- Provided a clear, data-driven recommendation that executives could use for budget allocation
+- Demonstrated ability to apply academic concepts (statistics) to practical business decisions
+- Created reproducible analysis that could be updated with new data
+
+### Tools Utilized
+- VS Code with GitHub Copilot for development
+- Jupyter Notebook for interactive analysis
+- Git/GitHub for version control
 
 ### Key Questions Addressed:
 - Which prepaid plan (Surf or Ultimate) brings in more revenue?
